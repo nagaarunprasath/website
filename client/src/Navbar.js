@@ -1,6 +1,11 @@
 import React from 'react'
 import Logo from './assests/th.jpg'
 import './navbar.css'
+import { CiMenuFries } from "react-icons/ci";
+import { RiAccountPinCircleFill } from "react-icons/ri";
+import { IoIosNotifications } from "react-icons/io";
+
+
 
 const Navbar = () => {
   return (
@@ -15,13 +20,14 @@ const Navbar = () => {
         </div>
         <div className="icon">
             <div className="accounts">
-                <h3>Accounts</h3>
+                <RiAccountPinCircleFill />
 
             </div>
             <div className="notification">
-                <h3>Notification</h3>
+            <IoIosNotifications />
             </div>
-            <div className="conn">
+            <div className="menuiconn">
+            <CiMenuFries />
             </div>
 
         </div>

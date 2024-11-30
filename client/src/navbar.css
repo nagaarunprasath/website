@@ -19,13 +19,16 @@ nav h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    font-size: small;
+    gap: 25px;
+    font-size: large;
     font-weight: 100;
     font-family: sans-serif;
     color: grey;
+    cursor: pointer;
+    
 
 }
+
 .menu ul{
     display: flex;
     align-items: center;
